@@ -27,6 +27,7 @@ public class Calculator {
 
                     System.out.println("Result: "+ calculator.squareRoot(num1));
                     System.out.println();
+                    break;
 
                 default:
                     System.out.println("Exiting program");
