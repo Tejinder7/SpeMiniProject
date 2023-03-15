@@ -20,7 +20,7 @@ public class Calculator {
 
             switch (choice){
                 case 1:
-//                    System.out.println();
+                    System.out.println();
                     System.out.println("Calculate Square Root");
                     System.out.println("Enter the number:");
                     double num1= scanner.nextDouble();
