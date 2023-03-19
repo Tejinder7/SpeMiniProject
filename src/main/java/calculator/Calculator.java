@@ -1,8 +1,17 @@
 package calculator;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Calculator {
+
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
+
+    public Calculator() {
+    }
 
     public static void main(String[] args) {
         Calculator calculator= new Calculator();
@@ -16,7 +25,14 @@ public class Calculator {
 
             System.out.println("1. Square root √x\n2. Factorial x!\n3. Natural Logarithm (base e) ln(x)\n4. Power x^b\n5. Exit\n");
 
-            choice= scanner.nextInt();
+            try{
+                choice= scanner.nextInt();
+            }
+            catch(InputMismatchException exception){
+                System.out.println(exception);
+                System.out.println("Wrong input type. Exiting Application");
+                return;
+            }
 
             switch (choice){
                 case 1:
@@ -34,11 +50,12 @@ public class Calculator {
                     return;
             }
         }
-
     }
 
     public double squareRoot(double num1){
+        logger.info("[SQUARE ROOT] - " + num1);
         double result= Math.sqrt(num1);
+        logger.info("[SQUARE ROOT- RESULT] - " + result);
         return result;
     }
 }

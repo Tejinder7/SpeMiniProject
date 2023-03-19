@@ -1,0 +1,4 @@
+2023-03-19 21:03:05.008 [main] INFO  calculator.Calculator - [SQUARE ROOT]: 25.0
+2023-03-19 21:03:05.014 [main] INFO  calculator.Calculator - [SQUARE ROOT- RESULT]: 5.0
+2023-03-19 21:04:15.261 [main] INFO  calculator.Calculator - [SQUARE ROOT] - 256.0
+2023-03-19 21:04:15.267 [main] INFO  calculator.Calculator - [SQUARE ROOT- RESULT] - 16.0
