@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Clone Git'){
             steps{
-                git 'https://github.com/Tejinder7/JenkinsDemo.git'
+                git 'https://github.com/Tejinder7/SpeMiniProject.git'
             }
         }
         stage('Maven Build'){
