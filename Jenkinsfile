@@ -34,9 +34,14 @@ pipeline{
                 }
             }
         }
-        stage("Clean Docker Image"){
+        stage('Clean Docker Image'){
             steps{
                 sh 'docker rmi tejinder7/calculatordevops'
+            }
+        }
+        stage('Deploy Image on client'){
+            steps{
+                ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'deploy.yml', sudoUser: null
             }
         }
     }
