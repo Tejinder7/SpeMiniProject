@@ -1,6 +1,6 @@
 ---
 - name: Deploy Docker Image of Calculator
-  hosts: all
+  hosts: client3
   tasks:
 
     - name: Start Docker Service
