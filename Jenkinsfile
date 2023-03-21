@@ -1,6 +1,12 @@
 pipeline{
     agent any
 
+    environment {
+    	    registry = "tejinder7/calculatordevops"
+    	    registryCredential = 'DockerHubId'
+    	    dockerImage = ''
+    }
+
     stages{
         stage('Clone Git'){
             steps{
@@ -12,9 +18,25 @@ pipeline{
                 sh 'mvn clean install'
             }
         }
-        stage('Test'){
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    dockerImage = docker.build registry + ":latest"
+                }
+            }
+        }
+        stage('Push Docker Image') {
+            steps {
+                script{
+                    docker.withRegistry( '', registryCredential ) {
+                            dockerImage.push()
+                    }
+                }
+            }
+        }
+        stage("Clean Docker Image"){
             steps{
-                echo "This is test stage"
+                sh 'docker rmi tejinder7/calculatordevops'
             }
         }
     }
