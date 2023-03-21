@@ -46,3 +46,37 @@
 2023-03-21 12:31:08.957 [main] INFO  calculator.Calculator - [SQUARE ROOT- RESULT] - 6.0
 2023-03-21 12:31:18.593 [main] INFO  calculator.Calculator - [SQUARE ROOT] - 1024.0
 2023-03-21 12:31:18.593 [main] INFO  calculator.Calculator - [SQUARE ROOT- RESULT] - 32.0
+2023-03-21 13:12:28.276 [main] INFO  calculator.Calculator - [FACTORIAL] - 5.0
+2023-03-21 13:12:28.280 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 24.0
+2023-03-21 13:13:06.349 [main] INFO  calculator.Calculator - [FACTORIAL] - 5.0
+2023-03-21 13:13:06.354 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 120.0
+2023-03-21 13:13:21.839 [main] INFO  calculator.Calculator - [FACTORIAL] - 6.0
+2023-03-21 13:13:21.843 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 720.0
+2023-03-21 13:13:26.403 [main] INFO  calculator.Calculator - [FACTORIAL] - 40.0
+2023-03-21 13:13:26.404 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 8.159152832478977E47
+2023-03-21 13:13:42.451 [main] INFO  calculator.Calculator - [FACTORIAL] - 36.0
+2023-03-21 13:13:42.452 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 3.719933267899012E41
+2023-03-21 13:13:47.437 [main] INFO  calculator.Calculator - [FACTORIAL] - 15.0
+2023-03-21 13:13:47.437 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 1.307674368E12
+2023-03-21 13:13:51.948 [main] INFO  calculator.Calculator - [FACTORIAL] - 10.0
+2023-03-21 13:13:51.948 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 3628800.0
+2023-03-21 13:16:30.664 [main] INFO  calculator.Calculator - [FACTORIAL] - 5
+2023-03-21 13:16:30.667 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 120
+2023-03-21 13:16:34.471 [main] INFO  calculator.Calculator - [FACTORIAL] - 10
+2023-03-21 13:16:34.471 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 3628800
+2023-03-21 13:16:37.797 [main] INFO  calculator.Calculator - [FACTORIAL] - 11
+2023-03-21 13:16:37.798 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 39916800
+2023-03-21 13:16:41.528 [main] INFO  calculator.Calculator - [FACTORIAL] - 40
+2023-03-21 13:16:41.528 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 0
+2023-03-21 13:16:47.952 [main] INFO  calculator.Calculator - [FACTORIAL] - 36
+2023-03-21 13:16:47.952 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 0
+2023-03-21 13:16:51.246 [main] INFO  calculator.Calculator - [FACTORIAL] - 20
+2023-03-21 13:16:51.246 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - -2102132736
+2023-03-21 13:17:39.747 [main] INFO  calculator.Calculator - [FACTORIAL] - 16
+2023-03-21 13:17:39.747 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 2004189184
+2023-03-21 13:17:42.860 [main] INFO  calculator.Calculator - [FACTORIAL] - 17
+2023-03-21 13:17:42.861 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - -288522240
+2023-03-21 13:50:03.726 [main] INFO  calculator.Calculator - [FACTORIAL] - -1
+2023-03-21 13:50:03.730 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - -1
+2023-03-21 13:50:13.993 [main] INFO  calculator.Calculator - [FACTORIAL] - -2
+2023-03-21 13:50:13.994 [main] INFO  calculator.Calculator - [FACTORIAL - RESULT] - 2
